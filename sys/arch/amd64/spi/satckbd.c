@@ -36,6 +36,7 @@
 #include <dev/wscons/wsksymdef.h>
 #include <dev/wscons/wsksymvar.h>
 
+#pragma clang diagnostic ignored "-Wgnu-variable-sized-type-not-at-end"
 #include "satopcasevar.h"
 
 /* #define SATCKBD_DEBUG */

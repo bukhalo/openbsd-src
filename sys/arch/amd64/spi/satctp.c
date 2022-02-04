@@ -30,6 +30,7 @@
 #include <dev/wscons/wsconsio.h>
 #include <dev/wscons/wsmousevar.h>
 
+#pragma clang diagnostic ignored "-Wgnu-variable-sized-type-not-at-end"
 #include "satopcasevar.h"
 
 /* #define SATCTP_DEBUG */

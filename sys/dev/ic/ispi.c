@@ -318,7 +318,7 @@ ispi_cs_change(struct ispi_softc *sc, int cs_assert)
 }
 
 int
-ispi_transfer(void *cookie, char *out, char *in, int len)
+ispi_transfer(void *cookie, char *out, char *in, int len, int flags)
 {
 	struct ispi_softc *sc = cookie;
 	int s = spltty();

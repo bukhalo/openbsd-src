@@ -96,7 +96,7 @@ int		ispi_acpi_found_hid(struct aml_node *node, void *arg);
 void		ispi_config(void *, struct spi_config *);
 int		ispi_acquire_bus(void *, int);
 void		ispi_release_bus(void *, int);
-int		ispi_transfer(void *, char *, char *, int);
+int		ispi_transfer(void *, char *, char *, int, int);
 void		ispi_start(struct ispi_softc *);
 void		ispi_send(struct ispi_softc *);
 void		ispi_recv(struct ispi_softc *);

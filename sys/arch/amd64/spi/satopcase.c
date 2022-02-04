@@ -28,6 +28,7 @@
 #include <sys/malloc.h>
 #include <sys/stdint.h>
 
+#pragma clang diagnostic ignored "-Wgnu-variable-sized-type-not-at-end"
 #include "satopcasevar.h"
 
 /* #define SATOPCASE_FORCE_ATTACH */
